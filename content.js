@@ -75,7 +75,7 @@ const PROJECTS = [
     links: [],
     intro: "At ETH's Computer Vision and Geometry Group, I built a system where two operators wearing Meta Quest 3 headsets each control a bimanual robot station in Isaac Sim and hand objects to each other. I used it to collect 600+ demonstrations and train imitation-learning policies to do the handover on their own.",
     sections: [
-      { h: "Two Operators, Four Arms, One Object", text: "", media: ["hero.mp4"], caption: "Teleoperating Franka FR3 arms with ORCA dexterous hands in Isaac Sim through the Quest 3." },
+      { h: "Teleoperation in Virtual Reality", text: "", media: ["hero.mp4"], caption: "Teleoperating Franka FR3 arms with ORCA dexterous hands in Isaac Sim through the Quest 3." },
       {
         h: "Why VR?",
         text: "The lab originally teleoperated the robots with Project Aria glasses. They track the operator's hands well, but give the operator no depth perception. It is hard to judge how far a cup is from the fingers, thus the grasping action missed, the objects get knocked over, and operators approach from awkward angles to compensate. Each demonstration took a long time to record, and many weren't worth training on (imitation learning copies whatever is in the data, hesitation and odd approach angles included).<br><br>Moving to a Meta Quest 3 in an Isaac Sim digital twin gives operators a stereo 3D view of the scene, so they reach and grasp naturally. Demonstrations became faster to collect and cleaner, which is what made collecting 600+ of them practical.",

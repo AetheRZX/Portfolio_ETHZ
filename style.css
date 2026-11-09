@@ -224,3 +224,18 @@ footer { text-align: center; color: var(--faint); font-size: 13px; padding: 30px
 @media (max-width: 420px) {
   .pill a { padding: 6px 9px; }
 }
+
+/* ---------- print / Save as PDF ---------- */
+@page { size: A4; margin: 12mm; }
+@media print {
+  .pill, .pager, .icon-btn { display: none !important; }
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .hero { min-height: 0; padding-top: 10px; padding-bottom: 20px; }
+  .project { padding-top: 0; }
+  .section { padding-top: 24px; padding-bottom: 24px; }
+  .card, .mini, .media, .code, .timeline li { break-inside: avoid; }
+  .psec h2 { break-after: avoid; }
+  .pics .media img, .pics .media video { max-height: 120mm; }
+  .code pre { max-height: none; overflow: visible; white-space: pre-wrap; }
+  footer { padding-bottom: 0; }
+}

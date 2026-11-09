@@ -110,7 +110,7 @@ const PROJECTS = [
   {
     id: "bldc",
     title: "Sensor-Error-Tolerant BLDC Motor Control",
-    year: "2026",
+    year: "2025–26",
     tag: "Embedded control · 2 IEEE papers",
     cover: "setup.svg",
     links: [
@@ -153,7 +153,7 @@ const PROJECTS = [
   {
     id: "transformer",
     title: "Drive-and-Fly Transformer Robot",
-    year: "2026",
+    year: "2025–26",
     tag: "Mechatronics · UBC MECH 423",
     links: [],
     intro: "A robot that drives on four wheels, then folds its wheels up and spins propellers inside them. Inspired by Caltech's M4 Morphobot, it reuses the same four pods for both jobs, making it compact yet versatile. Two of us (me and my twin, Gyan E. Zesiro) designed and built it from scratch, including the airframe, gears, power electronics and a custom flight controller.",

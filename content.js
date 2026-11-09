@@ -18,9 +18,9 @@
    ===================================================================== */
 
 const PROFILE = {
-  name: "Ryan Nashota",
+  name: "Ryan Edric Nashota",
   fullName: "Ryan Edric Nashota",
-  role: "a Robotics Engineer",
+  role: "", // optional second line of the headline, e.g. "a Robotics Engineer"
   intro: [
     "I'm an M.Sc. student in Robotics, Systems &amp; Control at ETH Zurich. My main interests are reinforcement learning, computer vision and motion planning, and I love building real robots.",
     "I'm looking for a Summer 2027 internship, so feel free to scroll down and see my past work.",

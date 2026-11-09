@@ -146,7 +146,7 @@
           media("assets/deco-1", "", "", { cls: "deco d1" }) +
           media("assets/deco-2", "", "", { cls: "deco d2" }) +
           media("assets/deco-3", "", "", { cls: "deco d3" }) +
-          "<h1>I'm " + P.name + ",<br>" + fmt(P.role) + ".</h1>" +
+          "<h1>I'm " + P.name + (P.role ? ",<br>" + fmt(P.role) : "") + ".</h1>" +
           P.intro.map(function (t) { return "<p>" + fmt(t) + "</p>"; }).join("") +
           '<div class="stack">' + buttons(P, true) + "</div>" +
         "</div>" +

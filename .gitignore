@@ -1,0 +1,4 @@
+# Raw source material: large and contains code/repos that should not be published
+Pic/
+.claude/
+__pycache__/
